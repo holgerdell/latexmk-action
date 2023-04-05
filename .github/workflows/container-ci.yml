@@ -12,6 +12,7 @@ on:
       - v*
   schedule:
     - cron: '17 14 * * 2'
+  workflow_dispatch:
 
 jobs:
   reusable-workflow:
